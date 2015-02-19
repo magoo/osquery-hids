@@ -1,8 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'file-tail'
 require 'ruby-growl'
-require 'json'
 
 g = Growl.new "localhost", "ruby-growl"
 
