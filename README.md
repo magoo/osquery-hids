@@ -20,9 +20,9 @@ Don't install this with any big expectation of security. It sucks. Build somethi
 3. Install growlnotify http://growl.info/downloads#generaldownloads
 4. Drop the osquery-hids plist into `/System/Library/LaunchDaemons`
 5. Drop the config into `/var/osquery/`, edit paths accordingly
-6. Drop their sexy logo into /var/osquery/
+6. Drop their sexy logo into `/var/osquery/`
 7. Reboot or `sudo launchctl load /System/Library/LaunchDaemons/com.osquery.hids.plist`
 8. Add a Login Item in System Preferences to see if it worked. 
 
-#Thanks!
+##Thanks!
 ...to the fine folks at FB for making osquery.
