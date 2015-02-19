@@ -7,8 +7,14 @@
     <string>com.osqueryd.hids</string>
   <key>ProgramArguments</key>
     <array>
-      <string>/Users/username/.rbenv/shims/ruby</string>
-      <string>/Users/username/osquery-hids/monitor.rb</string>
+      <string>/usr/local/bin/growlnotify</string>
+      <string>-m</string>
+      <string>Something changed. Check /var/log/osqueryd.results.log</string>
+      <string>--image</string>
+      <string>/var/osquery/logo-big.png</string>
+      <string>--sticky</string>
+      <string>-t</string>
+      <string>OSQuery Alert</string>
     </array>
   <key>WatchPaths</key>
     <array>
