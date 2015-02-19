@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+  <key>Label</key>
+    <string>com.osqueryd.hids</string>
+  <key>ProgramArguments</key>
+    <array>
+      <string>/Users/username/.rbenv/shims/ruby</string>
+      <string>/Users/username/osquery-hids/monitor.rb</string>
+    </array>
+  <key>WatchPaths</key>
+    <array>
+      <string>/var/log/osquery/osqueryd.results.log</string>
+    </array>
+</dict>
+</plist>
