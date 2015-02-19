@@ -1,0 +1,7 @@
+This is a really terrible OSQuery config, daemon, and script to alert an OSX user via growl.
+
+Each file needs to be configured with your install location.
+
+Must have growl + ruby.
+
+So terrible.
